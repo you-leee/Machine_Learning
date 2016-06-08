@@ -1,0 +1,16 @@
+1.) You are training a classification model with logistic regression. Which of the following statements are true? Check all that apply.
+	- Adding many new features to the model makes it more likely to overfit the training set.
+	- Introducing regularization to the model always results in equal or better performance on examples not in the training set. 
+	
+2.) Suppose you ran logistic regression twice, once with λ=0, and once with λ=1. One of the times, you got parameters θ=23.4, 37.9, and the other time you got θ=1.03, 0.28. However, you forgot which value of λ corresponds to which value of θ. Which one do you think corresponds to λ=1?
+	- Where θ is less.
+	
+3.) Which of the following statements about regularization are true? Check all that apply.
+	- Consider a classification problem. Adding regularization may cause your classifier to incorrectly classify some training examples (which it had correctly classified when not using regularization, i.e. when λ=0).
+	
+4.) In which one of the following figures do you think the hypothesis has overfit the training set?
+	- Where the line is crossing all of the data points and is a high polynomial function.
+	
+5.) In which one of the following figures do you think the hypothesis has underfit the training set?
+	- Where the line is crossing the least of data points
+	
