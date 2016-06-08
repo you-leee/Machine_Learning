@@ -22,3 +22,4 @@ Which of the following statements are true? (Check all that apply.)
 5.)Suppose that for some linear regression problem (say, predicting housing prices as in the lecture), we have some training set, and for our training set we managed to find some θ0, θ1 such that J(θ0,θ1)=0.
 Which of the statements below must then be true? (Check all that apply.)
 	-Our training set can be fit perfectly by a straight line, i.e., all of our training examples lie perfectly on some straight line.
+	- For these values of θ0 and θ1 that satisfy J(θ0,θ1)=0, we have that hθ(x(i))=y(i) for every training example (x(i),y(i))
