@@ -40,7 +40,7 @@ for i = 1:7
 end
 
 Which of the following vectorizations correctly compute z? Check all that apply.
-	-  z = sum (v .* w); z = v' * w; 
+	-  z = sum (v .* w); z = v' * w; z = w' * v;
 	
 	
 5.) In Octave/Matlab, many functions work on single numbers, vectors, and matrices. For example, the sin function when applied to a matrix will return a new matrix with the sin of each element. But you have to be careful, as certain functions have different behavior. Suppose you have an 7x7 matrix X. You want to compute the log of every element, the square of every element, add 1 to every element, and divide every element by 4. You will store the results in four matrices, A,B,C,D. One way to do so is the following code:
